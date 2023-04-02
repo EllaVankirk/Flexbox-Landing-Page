@@ -1,0 +1,42 @@
+
+body {
+    margin: 0;
+    flex-direction: column;
+}
+
+.dark_background {
+
+    background-color: #152937;
+    flex-direction: row;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.content {
+    display: flex;
+}
+
+.hero_text {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.secondary_text {
+    color: #E5E7EB;
+    font: 18px;
+}
+
+.hero_image {
+    height: 300px;
+    width: 450px;
+}
