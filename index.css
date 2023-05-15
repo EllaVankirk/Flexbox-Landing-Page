@@ -58,7 +58,7 @@ button {
 
 .hero-img {
     margin: 48px 0px;
-    justify-content:end;
+    justify-content: center;
 }
 
 .information-header {
@@ -68,15 +68,24 @@ button {
     justify-content: center;
 }
 
-.small-image-container {
+.small-container {
     display: flex;
-    justify-content: space-evenly;
-    
+    justify-content: space-around;
+    align-content: center;
+}
+
+.small {
+    height: 150px;
+    width: 150px;
 }
 
 .small-images {
-    height: 200px;
-    width: 200px;
-    border: solid 2px;
-    border-color: red;
+    border: solid 3px;
+    border-color: #3882F6;
+    border-radius: 15px;
+}
+
+.small-text {
+    padding: 5px 0px;
+    /* I want the text to be centered */
 }
