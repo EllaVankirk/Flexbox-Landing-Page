@@ -114,14 +114,33 @@ button {
     margin: 75px 0px;
 }
 
-.cta-content {
+.cta-box {
     display: flex;
-    flex-direction: column;
+    flex-basis: 600px;
     justify-content: center;
     background-color: #3882F6;
     color: white;
     padding: 50px 100px;
     border-radius: 7px;
+}
+
+
+.cta-content-text {
+    flex-basis: 450px;
+}
+
+.cta-text-1 {
+    font-weight: 500;
+}
+
+.cta-text-2 {
+    font-weight: 100;
+    font-size: 15px;
+    color:#E5E7EB;
+}
+
+.cta-content-btn {
+    flex-basis: 150px;
 }
 
 .cta-btn-container {
@@ -133,5 +152,17 @@ button {
 
 .cta-btn {
     border: solid 2px;
-    border-color: white;
+    border-color:#f9faf8;
+    margin-left: auto;
+}
+
+footer {
+    background-color: #1F2937;
+    color:#E5E7EB;
+    padding: 50px 0px;
+    font-size: 18px;
+}
+
+footer div {
+    justify-content: center;
 }
