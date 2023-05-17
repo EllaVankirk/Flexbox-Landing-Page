@@ -1,53 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="index.css" />
 
-    <title>Flexbox Practice</title>
-  </head>
-  <body>
-    <header class="blue-background flex-wrapper">
-      <div class="flex-wrapper header-logo">Header Logo</div>
-      <div class="header-links">Link One</div>
-      <div class="header-links">Link Two</div>
-      <div class="header-links">Link Three</div>
-    </header>
-    <div class="blue-background flex-wrapper">
-      <div class="item">
-        <p class="flex-wrapper hero-text">This website is awesome</p>
-        <p class="flex-wrapper secondary-text">This website has some subtext that goes here under the main title. It's
-        a smaller font and the color is lower in contrast</p>
-        <div class="flex-wrapper">
-            <button>Sign Up</button>
+        <title>Flexbox Practice</title>
+    </head>
+    <body>
+        <header class="blue-background flex-wrapper">
+            <div class="flex-wrapper header-logo">Header Logo</div>
+            <div class="header-links">Link One</div>
+            <div class="header-links">Link Two</div>
+            <div class="header-links">Link Three</div>
+        </header>
+        <div class="blue-background flex-wrapper">
+            <div class="item">
+                <p class="flex-wrapper hero-text">This website is awesome</p>
+                <p class="flex-wrapper secondary-text">
+                    This website has some subtext that goes here under the main
+                    title. It's a smaller font and the color is lower in
+                    contrast
+                </p>
+                <div class="flex-wrapper">
+                    <button class="btn">Sign Up</button>
+                </div>
+            </div>
+            <div class="item">
+                <div class="hero-img flex-wrapper">
+                    <img
+                        src="./images/photo-1465146344425-f00d5f5c8f07.avif"
+                        alt="image of poppies and grey sky"
+                    />
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="item">
-        <div class="hero-img flex-wrapper">
-          <img
-            src="./images/photo-1465146344425-f00d5f5c8f07.avif"
-            alt="image of poppies and grey sky"
-          />
+        <div class="information-header flex-wrapper">
+            <p>Some Random Information.</p>
         </div>
-      </div>
-    </div>
-    <div class="information-header flex-wrapper">
-      <p>Some Random Information.</p>
-    </div>
-    <div class="flex-wrapper small-container">
-      <div class="small small-images"></div>
-      <div class="small small-images"></div>
-      <div class="small small-images"></div>
-      <div class="small small-images"></div>
-    </div>
-    <div class="flex-wrapper small-container">
-      <div class="small small-text">This is some subtext under and illustration or image</div>
-      <div class="small small-text">This is some subtext under and illustration or image</div>
-      <div class="small small-text">This is some subtext under and illustration or image</div>
-      <div class="small small-text">This is some subtext under and illustration or image</div>
-    </div>
-
-  </body>
+        <div class="flex-wrapper small-container">
+            <div class="small small-images"></div>
+            <div class="small small-images"></div>
+            <div class="small small-images"></div>
+            <div class="small small-images"></div>
+        </div>
+        <div class="flex-wrapper small-container">
+            <div class="small small-text">
+                This is some subtext under and illustration or image
+            </div>
+            <div class="small small-text">
+                This is some subtext under and illustration or image
+            </div>
+            <div class="small small-text">
+                This is some subtext under and illustration or image
+            </div>
+            <div class="small small-text">
+                This is some subtext under and illustration or image
+            </div>
+        </div>
+        <div class="quote-container">
+            <div class="flex-wrapper">
+                This is an inspiring quote, or a testimonial from a customer.
+                Maybe it's just filling up space, or maybe people will actually
+                read it. Who knows? All I know is that it looks nice.
+            </div>
+            <div class="quote-author">-Thor, God of Thunder</div>
+        </div>
+        <div class="flex-wrapper cta-container">
+            <div class="cta-content">
+                <div class="flex-wrapper">Call to action! It's time!</div>
+                <div class="flex-wrapper">
+                    <div class="">
+                        Sign up for our product by clicking that button right
+                        over there!
+                    </div>
+                </div>
+            </div>
+            <div class="cta-btn-container">
+              <button class="cta-btn">Sign Up</button>
+            </div>
+        </div>
+    </body>
 </html>
